@@ -40,10 +40,20 @@ public class EqualityOfTwoLines {
 		{System.out.println("legth of both lines are equal");
 		
 		}
-		else {
-			System.out.println("length of both lines are not equal");
+		if (Dis1>Dis2){
+			System.out.println("length of line 1 is greater than line 2");
 		}
+		if (Dis2>Dis1) {
+			System.out.println("length line 2 graeter than 1");
+		}
+			else {
+				System.out.println("result can not be determined");
+			}
+		}
+	
+		
+		
 		
 	}
 
-}
+
